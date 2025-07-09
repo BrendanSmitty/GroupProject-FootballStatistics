@@ -1,0 +1,97 @@
+.team-details-container {
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+}
+
+.team-details-statistics{
+    background-color: rgb(60, 60, 60, 1.0);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.team-logo {
+    margin: 20px auto;
+}
+
+.league-name,
+.team-form {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fixtures-title,
+.squad-title {
+    color: white;
+    font-size: 24px;
+}
+
+.squad-title {
+    color: white !important;
+    font-size: 24px;
+    margin: auto;
+}
+
+.fixtures-list {
+    color: white !important;
+    list-style: none;
+    padding: 0;
+}
+  
+.fixtures-list li {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.position-group {
+    margin-top: 20px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    margin: 60px;
+    max-width: 50%;
+}
+  
+.position-title {
+    margin-top: auto;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 80px;
+    padding: 10px;
+}
+
+.player-item {
+    background-color: rgb(60, 60, 60, 1.0);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, backgroumd-color 0.3s ease;
+    max-width: 200px;
+    text-decoration: none;
+}
+
+.player-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 
+    0 0 25px rgba(5, 240, 255, 0.6), 
+    0 0 25px rgba(5, 240, 255, 0.6), 
+    0 0 25px rgba(115, 103, 255, 0.6), 
+    0 0 25px rgba(150, 60, 255, 0.6);
+    background-color: rgb(99, 99, 99);
+  }
+
+.player-photo {
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.player-name {
+    font-weight: bold;
+}

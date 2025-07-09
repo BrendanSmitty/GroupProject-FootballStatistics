@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 15px;
+  color: #ffffff;
+}
+
+.upcoming-fixtures table{
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden; 
+  color: white;
+  background-color: rgb(60, 60, 60, 1.0);
+  width: 100%;
+  max-width: 1200px;
+  border: 2px solid black;
+  table-layout: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.standings table{
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden; 
+  color: white;
+  background-color: rgb(60, 60, 60, 1.0);
+  max-width: 1200px;
+  border: 2px solid black;
+  table-layout: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+td img {
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+th, td {
+  font-family: 'Poppins', sans-serif;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd; 
+  font-size: 16px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tbody tr:hover {
+  background: linear-gradient(98.5deg, #05f0ff -46.16%, #7367ff 42.64%, #963cff 70.3%); 
+  color: #fff;
+}
+
+.top-scorers-table{
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden; 
+  color: white;
+  background-color: rgb(60, 60, 60, 1.0);
+  max-width: 1200px;
+  border: 2px solid black;
+  table-layout: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-assists-table{
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden; 
+  color: white;
+  background-color: rgb(60, 60, 60, 1.0);
+  max-width: 1200px;
+  border: 2px solid black;
+  table-layout: fixed;
+  font-family: 'Roboto', sans-serif;
+}

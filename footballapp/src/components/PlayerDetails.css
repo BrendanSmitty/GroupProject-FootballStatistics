@@ -1,0 +1,54 @@
+.player-details-container {
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    color: white;
+  }
+  
+  .player-name {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  
+
+  
+  .statistics-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  
+  .league-flag {
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+  }
+  
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .stat-card {
+    padding: 15px;
+    background-color: #444; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #007BFF;
+  }
