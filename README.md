@@ -8,5 +8,17 @@
 
 
 ## Technologies Used
+  - API
+  - MongoDB
+  - JavaScript
+  - HMTL
+  - CSS
 
 ## Description
+
+
+## Run instructions
+- in terminal type cd Backend
+- then npm start
+- in another terminal type cd footballapp
+- then npm run dev
