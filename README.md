@@ -12,13 +12,12 @@
 
 ## Description
 #### Football Central: Premier League Hub
-JavaScript | Node.js | MongoDB | API Integration | Team Project
-
-**Real-time Football Data Platform**  
+#### Real-time Football Data Platform
+JavaScript | Node.js | MongoDB | API Integration | Team Project 
 
 React/Express.js application featuring live standings, fixture grouping, player stats, and personalized profiles with favorite team tracking. Integrates with Football API with custom caching and data normalization layers.
 
-**Key Features**:  
+#### Key Features:  
 - Personalized user profiles with favorite teams  
 - Date-grouped fixtures with team logos  
 - Player/team statistics dashboards  
